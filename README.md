@@ -1,3 +1,5 @@
+# Manajemen Showroom
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -28,6 +30,23 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Breeze
+
+Breeze is a simple implementation of all of Laravel's authentication features, including login, registration, password reset, email verification, and more. It provides a minimal and elegant starting point for building a Laravel application with authentication.
+
+### Features of Breeze:
+- Easy installation and setup.
+- Supports Tailwind CSS for styling.
+- Provides simple, customizable authentication routes and views.
+
+To install Breeze, run the following command:
+```bash
+composer require laravel/breeze --dev
+php artisan breeze:install
+npm install && npm run dev
+php artisan migrate
+
 
 ## Laravel Sponsors
 
